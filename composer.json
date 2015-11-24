@@ -1,0 +1,13 @@
+{
+    "name": "siriusphp/html-benchmark",
+    "require": {
+        "siriusphp/html": "^1.1",
+        "twig/twig": "^1.23"
+    },
+    "authors": [
+        {
+            "name": "Adrian Miu",
+            "email": "adrian@adrianmiu.ro"
+        }
+    ]
+}
