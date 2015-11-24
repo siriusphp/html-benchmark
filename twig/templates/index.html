@@ -1,14 +1,14 @@
-<form method="post" action="{{form_url}}">
+<form method="post" action="{{form_url | escape('html_attr')  }}">
 
-    <div class="{{classes.form_group}}">
-        <label class="{{classes.form_label}}">{{username.label}}</label>
-        <input type="text" name="username" value="{{username.value}}" class="{{classes.form_control}}">
+    <div class="{{classes.form_group | escape('html_attr')  }}">
+        <label class="{{classes.form_label | escape('html_attr')  }}">{{username.label}}</label>
+        <input type="text" name="username" value="{{username.value | escape('html_attr')  }}" class="{{classes.form_control | escape('html_attr')  }}">
     </div>
 
-    <div class="{{classes.form_group}}">
-        <label class="{{classes.form_label}}">{{email.label}}</label>
-        <input type="text" name="username" value="{{email.value}}" class="{{classes.form_control}}">
+    <div class="{{classes.form_group | escape('html_attr')  }}">
+        <label class="{{classes.form_label | escape('html_attr')  }}">{{email.label}}</label>
+        <input type="text" name="username" value="{{email.value | escape('html_attr')  }}" class="{{classes.form_control | escape('html_attr')  }}">
     </div>
 
-    <button type="submit" class="{{classes.submit}}">Submit</button>
+    <button type="submit" class="{{classes.submit | escape('html_attr')  }}">Submit</button>
 </form>

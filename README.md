@@ -6,7 +6,7 @@ The benchmark results are as follows
 
 | Library               | Time    | Memory|
 |-----------------------|--------:|------:|
-| Twig                  | 0.55s   | 1.3Mb |
+| Twig                  | 0.82s   | 1.3Mb |
 | Sirius - optimized    | 0.74s   | 0.5Mb |
 | Sirius - not optimized| 1.55s   | 0.5Mb |
 
